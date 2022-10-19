@@ -5,6 +5,8 @@ Inline Python Telegram Bot to download contents from subreddits
 ```
 pip install -r requirements.txt
 ```
+* Latest release of [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) (v20)
+* Python 3.8
 # Token and token.yaml (Reddit)
 You need a Reddit APP to use this bot. 
 1. Create a new App on [reddit website](https://www.reddit.com/prefs/apps)

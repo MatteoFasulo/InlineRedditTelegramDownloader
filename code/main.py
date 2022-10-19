@@ -679,6 +679,7 @@ async def bulk_subreddit_downloader(subr, update: Update, context: ContextTypes.
 
 def main() -> None:
     settingsConfig()
+    botFatherToken()
     assert(load_dotenv())
     API_KEY = os.getenv('API_KEY')
     application = Application.builder().token(API_KEY).build()

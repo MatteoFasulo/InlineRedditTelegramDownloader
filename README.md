@@ -7,6 +7,10 @@ pip install -r requirements.txt
 ```
 * Latest release of [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) (v20)
 * Python 3.8
+* PRAW (Reddit API)
+* PyYAML
+* Python-Dotenv
+
 # Token and token.yaml (Reddit)
 You need a Reddit APP to use this bot. 
 1. Create a new App on [reddit website](https://www.reddit.com/prefs/apps)

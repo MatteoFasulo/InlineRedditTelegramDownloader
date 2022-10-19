@@ -22,3 +22,6 @@ You need a Reddit APP to use this bot.
 
 # BotFather Token (bot)
 Remember to create a new bot on [@BotFather](https://telegram.me/BotFather) and insert the token into `.env` file
+
+# How it works?
+`main.py` file guides you through reddit token creation and runs the bot istance. User data will be stored in `settings.json` where each user will have his configuration of the bot including which content to download as well as the number of contents and filter of subreddit. Bot's menu is completely inline with callback queries empowered by the **ConversationHandler**
